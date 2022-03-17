@@ -1,0 +1,42 @@
+.slick-slide {
+  padding: 0 6px !important;
+  box-sizing: border-box;
+}
+
+.good {
+  background-color: #fff;
+  padding: 2rem 0;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  height: 251px !important;
+  margin-right: 10px !important;
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .good__type__price {
+    align-self: flex-start;
+  }
+
+  h5 {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

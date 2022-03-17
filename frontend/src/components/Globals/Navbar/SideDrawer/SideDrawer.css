@@ -1,0 +1,44 @@
+.side_drawer {
+  height: 100%;
+  background: #fff;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.side_drawer.open {
+  transform: translateX(0);
+}
+
+.side_drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.side_drawer ul li {
+  margin: 0.5rem 0;
+}
+
+.side_drawer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.side_drawer ul li a:hover,
+.side_drawer ul li a:active {
+  color: #fa923f;
+}
+
+@media (min-width: 769px) {
+  .side_drawer {
+    display: none;
+  }
+}

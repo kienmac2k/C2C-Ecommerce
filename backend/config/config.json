@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "kienneik",
+    "password": "maychila1",
+    "database": "ecommerce",
+    "host": "127.0.0.1",
+    "dialect": "mssql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "base": "/api",
+  "bcrypt": {
+    "saltRounds": 10
+  },
+  "jwt": {
+    "SECRET": "hsda89uasdkkjskaus989wqwhaksj",
+    "EXPIRY": "30d"
+  },
+  "keys": {
+    "google": {
+      "clientID": "235305639178-b1fe0hd8ptls9hs33mj3727q7e8nrleu.apps.googleusercontent.com",
+      "clientSecret": "dgghzk-XAv0WpxRBpDgHlV1d"
+    },
+    "facebook": {
+      "clientID": "31352578591773787",
+      "clientSecret": "ca51828f7321bd557e30ae49f4a4585f"
+    }
+  }
+}

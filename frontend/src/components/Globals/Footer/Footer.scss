@@ -1,0 +1,82 @@
+footer {
+  background: #48555c;
+  color: white;
+  padding: 6rem 13rem 6rem 17rem;
+}
+
+footer > .row3 {
+  padding-top: 4rem;
+}
+
+footer .col-md-3.partners {
+  margin-left: 27rem;
+
+  @media screen and(max-width:768px) {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+}
+
+footer ul.socials {
+  li:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+footer ul.appstores {
+  li:nth-child(2) {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+footer ul li {
+  line-height: 1.7;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer h6,
+footer h4,
+footer h5 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: left;
+  font-family: "Open Sans" sans-serif;
+  color: #fff;
+}
+
+footer h5 {
+  margin-bottom: 2rem;
+}
+
+footer h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.footer-bottom {
+  background: #243137 !important;
+  padding: 21px 10px 4px 10px;
+  text-align: center;
+
+  & p {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
